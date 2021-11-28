@@ -24,8 +24,8 @@
             android:textSize="20sp"
 
             app:met_floatingLabel="highlight"
-            app:met_baseColor="#0056d3"
-            app:met_primaryColor="#982360"
+            app:met_baseColor="@color/white"
+            app:met_primaryColor="@color/blue"
             app:met_singleLineEllipsis="true"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
@@ -39,8 +39,8 @@
             android:textSize="20sp"
 
             app:met_floatingLabel="highlight"
-            app:met_baseColor="#0056d3"
-            app:met_primaryColor="#982360"
+            app:met_baseColor="@color/white"
+            app:met_primaryColor="@color/blue"
             app:met_singleLineEllipsis="true"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
@@ -54,8 +54,8 @@
             android:textSize="20sp"
 
             app:met_floatingLabel="highlight"
-            app:met_baseColor="#0056d3"
-            app:met_primaryColor="#982360"
+            app:met_baseColor="@color/white"
+            app:met_primaryColor="@color/blue"
             app:met_singleLineEllipsis="true"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
@@ -69,8 +69,8 @@
             android:textSize="20sp"
 
             app:met_floatingLabel="highlight"
-            app:met_baseColor="#0056d3"
-            app:met_primaryColor="#982360"
+            app:met_baseColor="@color/white"
+            app:met_primaryColor="@color/blue"
             app:met_singleLineEllipsis="true"/>
 
     </LinearLayout>

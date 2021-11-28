@@ -20,6 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
+
 public class MainActivity extends AppCompatActivity {
 
     Button btnSignIn, btnRegister;
@@ -54,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void showRegisterWindow() {
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
-        dialog.setTitle("@string/textReg");
-        dialog.setMessage("@string/messageReg");
+        dialog.setTitle("Зарегистрироватся");
+        dialog.setMessage("Введите все данные для регистрации");
 
         LayoutInflater inflater = LayoutInflater.from(this);
         View register_window = inflater.inflate(R.layout.register_window, null);
@@ -66,14 +67,14 @@ public class MainActivity extends AppCompatActivity {
         final MaterialEditText name = register_window.findViewById(R.id.nameField);
         final MaterialEditText phone = register_window.findViewById(R.id.phoneField);
 
-        dialog.setNegativeButton("@string/text_cancel", new DialogInterface.OnClickListener() {
+        dialog.setNegativeButton("Отменить", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
                 dialogInterface.dismiss();
             }
         });
 
-        dialog.setPositiveButton("@string/textReg", new DialogInterface.OnClickListener() {
+        dialog.setPositiveButton("Зарегистрироватся", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int which) {
                 //Проверка введенных данных
@@ -110,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                                             @Override
                                             public void onSuccess(Void unused) {
-                                                Snackbar.make(root, "@string/added_successfully", Snackbar.LENGTH_SHORT).show();
+                                                Snackbar.make(root, "Пользователь добавлен!", Snackbar.LENGTH_SHORT).show();
                                             }
                                         });
 

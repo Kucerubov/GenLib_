@@ -56,8 +56,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_margin="15dp"
             android:background="@drawable/bth_sign_in"
-            android:text="@string/button_register" />
+            android:text="@string/button_login" />
 
         <Button
             android:id="@+id/btnRegister"
@@ -65,7 +66,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/btn_register"
             android:layout_weight="1"
-            android:text="@string/button_login"/>
+            android:text="@string/button_register"/>
 
     </LinearLayout>
 
