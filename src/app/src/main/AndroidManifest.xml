@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GenLib_1">
         <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
