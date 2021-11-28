@@ -6,4 +6,14 @@
     <string name="password_user">Пароль</string>
     <string name="email">Email</string>
     <string name="number_phone">Номер телефона</string>
+    <string name="name_user">Имя</string>
+    <string name="textReg">Зарегистрироватся</string>
+    <string name="messageReg">Введите все данные для регистрации</string>
+    <string name="text_cancel">Отменить</string>
+    <string name="error_input_email">Введите вашу почту</string>
+    <string name="error_input_name">Введите ваше имя</string>
+    <string name="error_input_phone">Введите ваш номер телефона</string>
+    <string name="error_input_pass">Введите пароль, который вмещает более 5 символов</string>
+    <string name="added_successfully">Пользователь добавлен!</string>
+    <string name="text_main_menu">Beta 1.0</string>
 </resources>
